@@ -1,23 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import Clicker from './Clicker'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App-container">
+        <h1>React Clicker</h1>
+        <Clicker/>
+        <p> A very simple implementation of a React clicker using React Hooks to update state.</p>
       </header>
     </div>
   );
